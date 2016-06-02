@@ -2,7 +2,7 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>ScatterChartID119847dc184</title>
+<title>ScatterChartIDf2c77606dae</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -17,15 +17,15 @@ body {
 </style>
 </head>
 <body>
- <!-- ScatterChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Sun May 29 16:52:30 2016 -->
+ <!-- ScatterChart generated in R 3.2.3 by googleVis 0.5.10 package -->
+<!-- Thu Jun 02 17:11:13 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataScatterChartID119847dc184 () {
+function gvisDataScatterChartIDf2c77606dae () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -693,14 +693,20 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartScatterChartID119847dc184() {
-var data = gvisDataScatterChartID119847dc184();
+function drawChartScatterChartIDf2c77606dae() {
+var data = gvisDataScatterChartIDf2c77606dae();
 var options = {};
 options["allowHtml"] = true;
+options["title"] = "Correlation between Population and Income";
+options["pointshape"] = "polygon";
+options["vAxis"] = {title: 'Income'};
+options["hAxis"] = {title: 'Population'};
+options["width"] =    600;
+options["height"] =    350;
 
 
     var chart = new google.visualization.ScatterChart(
-    document.getElementById('ScatterChartID119847dc184')
+    document.getElementById('ScatterChartIDf2c77606dae')
     );
     chart.draw(data,options);
     
@@ -724,9 +730,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartScatterChartID119847dc184);
+callbacks.push(drawChartScatterChartIDf2c77606dae);
 })();
-function displayChartScatterChartID119847dc184() {
+function displayChartScatterChartIDf2c77606dae() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -750,17 +756,17 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartScatterChartID119847dc184"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartScatterChartIDf2c77606dae"></script>
  
 <!-- divChart -->
   
-<div id="ScatterChartID119847dc184" 
-  style="width: 500; height: automatic;">
+<div id="ScatterChartIDf2c77606dae" 
+  style="width: 600; height: 350;">
 </div>
- <div><span>Data: a1 &#8226; Chart ID: <a href="Chart_ScatterChartID119847dc184.html">ScatterChartID119847dc184</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+ <div><span>Data: a1 &#8226; Chart ID: <a href="Chart_ScatterChartIDf2c77606dae.html">ScatterChartIDf2c77606dae</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
-  R version 3.3.0 (2016-05-03) 
+  R version 3.2.3 (2015-12-10) 
   &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/scatterchart">Documentation and Data Policy</a>
 </span></div>
 </body>
